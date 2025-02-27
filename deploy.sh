@@ -1,6 +1,5 @@
 #!/usr/bin/bash
-sudo apt update
-sudo apt install nodejs npm
+sudo apt update && sudo apt install nodejs npm
 sudo npm install -g pm2
 pm2 stop cicd_example
 cd cicd_example
